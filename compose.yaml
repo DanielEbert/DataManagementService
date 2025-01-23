@@ -1,0 +1,17 @@
+services:
+  postgres:
+    image: postgres:latest
+    container_name: postgres-test
+    environment:
+      - POSTGRES_USER=admin
+      - POSTGRES_PASSWORD=admin
+    ports:
+      - "5432:5432"
+  # api:
+  #   build:
+  #     context: .
+  #     dockerfile: Dockerfile.backend
+  #   image: mds_backend:latest
+  #   container_name: mds_backend
+  #   ports:
+  #     - "3000:3000"

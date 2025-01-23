@@ -1,3 +1,9 @@
+### TODO
+
+- write a file with test calling some rest apis
+    - maybe before also drops all tables?
+- use sqlalchemy, postgres, create db with compose, fill dummy data (which acts as test)
+- kinda need to know how services shall be called
 
 ### Requirements
 
@@ -32,7 +38,7 @@ nice to have:
 - key=value
 - or upload file in blob storage, value is link
 
-#### Sequence
+#### Collection
 
 - create
 - update/add
